@@ -21,6 +21,8 @@ class Main {
                 if (calc.length!=3) {
                         System.out.println("throws Exception //т.к. формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
                 } else {
+                        if ()
+
                         a = Integer.valueOf(calc[0]);
                         b = Integer.valueOf(calc[2]);
                         c = calc[1];
