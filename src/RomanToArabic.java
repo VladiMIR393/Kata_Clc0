@@ -1,8 +1,8 @@
 import java.util.List;
 
 
-public class RomanToArabic {
-    public static int RomanToArabic(String input) {
+class RomanToArabic {
+    static int RomanToArabic(String input) {
         String romanNumeral = input.toUpperCase();
         int result = 0;
 
@@ -21,7 +21,7 @@ public class RomanToArabic {
         }
 
         if (romanNumeral.length() > 0) {
-            throw new IllegalArgumentException(input + " throws Exception // т.к. в римской системе нет таких чисел");
+            throw new IllegalArgumentException("// т.к. в римской системе нет таких чисел");
 
         }
 
