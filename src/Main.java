@@ -21,10 +21,12 @@ class Main {
                 if (calc.length!=3) {
                         System.out.println("throws Exception //т.к. формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
                 } else {
-                        if ()
-
-                        a = Integer.valueOf(calc[0]);
-                        b = Integer.valueOf(calc[2]);
+                        if ((Integer.valueOf(calc[0]).getClass().equals(Integer.valueOf(calc[2]).getClass()))){
+                                a = Integer.valueOf(calc[0]);
+                                b = Integer.valueOf(calc[2]); 
+                        } else if () {
+                                
+                        }
                         c = calc[1];
                         if(c.equals("+")){
                                 System.out.println(a+b);
